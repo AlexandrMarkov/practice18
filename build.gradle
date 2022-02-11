@@ -8,9 +8,14 @@ repositories {
 }
 
 dependencies {
+    implementation 'de.lgohlke.selenium:webdriver:0.3'
+    implementation 'org.seleniumhq.webdriver:webdriver-selenium:0.9.7376'
+    implementation 'org.seleniumhq.webdriver:webdriver-common:0.9.7376'
     testImplementation(platform('org.junit:junit-bom:5.8.2'))
     testImplementation('org.junit.jupiter:junit-jupiter')
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.2'
+
+
 
 }
 
